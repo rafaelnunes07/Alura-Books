@@ -1,0 +1,26 @@
+@import url("assets/css/header.css");
+@import url("assets/css/banner.css");
+@import url("assets/css/carrossel.css");
+@import url("assets/css/contato.css");
+@import url("assets/css/footer.css");
+
+:root {
+    --cor-de-fundo: #EBECEE;
+    --branco: #FFFFFF;
+    --preto: #000000;
+    --laranja: #EB9B00;
+    --azul: #002F52;
+    --branco-rodape: #F9F9F9;
+    --cinza: #858585;
+    --cinza-secundario: #474646;
+    --azul-degrade: linear-gradient(97.54deg, #002F52 35.49%, #326589 165.37%);
+    --fonte-principal: "Poppins";
+    --fonte-secundaria: "Josefin Sans"
+}
+
+body {
+    background-color: var(--cor-de-fundo);
+    font-family: var(--fonte-principal);
+    font-size: 16px;
+    font-weight: 400;
+}
